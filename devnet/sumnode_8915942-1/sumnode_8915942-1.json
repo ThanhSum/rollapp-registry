@@ -1,0 +1,33 @@
+{
+  "chainId": "sumnode_8915942-1",
+  "chainName": "sumnode_8915942-1",
+  "rpc": "http://65.109.143.78:26657",
+  "rest": "http://65.109.143.78:1317",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "sum",
+      "baseDenom": "usum",
+      "decimals": 18,
+      "logo": "/logos/sumnode_8915942-1.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+  "website": "",
+  "logo": "/logos/sumnode_8915942-1.png",
+  "ibc": {
+    "hubChannel": "channel-9352",
+    "channel": "channel-0",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0x880be6",
+    "rpc": "65.109.143.78:8545"
+  },
+  "type": "RollApp",
+  "da": "Avail",
+  "description": "",
+  "analytics": true
+}
